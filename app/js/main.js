@@ -22,7 +22,7 @@ progressScroll();
   $(window).scroll(function(){
     var t = $(window).scrollTop();
     console.log(t);
-    var show = (t >= 400) ? $('.four, video').addClass('fadeOut') : [$('.four, video ').removeClass('fadeOut'), $('.four, video').addClass('.fadeIn')];
+    var show = (t >= 599) ? $('.four, video').addClass('fadeOut') : [$('.four, video ').removeClass('fadeOut'), $('.four, video').addClass('.fadeIn')];
     var show = (t >= 600)   ? $('.one').addClass('fadeIn') : $('.one').removeClass('fadeIn');
     var show = (t >= 1200)  ? [$('.two').addClass('fadeIn'), $('.one').removeClass('fadeIn')] : $('.two').removeClass('fadeIn');
     var show = (t >= 1800)  ? [$('.three').addClass('fadeIn'), $('.two').removeClass('fadeIn')] : $('.three').removeClass('fadeIn');

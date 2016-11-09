@@ -8,10 +8,16 @@ body .wrapper {
 body .one {
   position: fixed;
   display: none;
+  background-color: #ffd5c0;
+  width: 100%;
+  height: 100%;
 }
 body .two {
   position: fixed;
   display: none;
+  background-color: #ebffc0;
+  width: 100%;
+  height: 100%;
 }
 body .three {
   position: fixed;
