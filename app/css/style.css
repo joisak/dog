@@ -1,0 +1,65 @@
+body {
+  background-color: pink;
+  height: 7000px;
+}
+body .wrapper {
+  width: 1200px;
+}
+body .one {
+  position: fixed;
+  display: none;
+}
+body .two {
+  position: fixed;
+  display: none;
+}
+body .three {
+  position: fixed;
+  display: none;
+}
+body .hide {
+  visibility: hidden;
+  display: none;
+}
+body .fadeIn {
+  -webkit-animation: animat_show 1s;
+  animation: animat_show 1s;
+  visibility: visible !important;
+  display: block;
+}
+body .fadeOut {
+  -webkit-animation: animat_hide 1s;
+  animation: animat_hide 1s;
+  visibility: hidden !important;
+}
+body #dog {
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+}
+body svg {
+  position: absolute;
+}
+body video {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  overflow: hidden;
+}
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animat_hide {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}

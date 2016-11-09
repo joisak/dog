@@ -1,0 +1,29 @@
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* Dimensions */
+  width: 100%;
+  height: 10px;
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: #000;
+  /* Progress bar value for IE10+ */
+color: pink;
+}
+progress::-webkit-progress-bar {
+background-color: transparent;
+}
+progress::-webkit-progress-value {
+  background-color: pink;
+}
+progress::-moz-progress-bar {
+  background-color: pink;
+}
